@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kathleen Apostol Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- Example: Importing "Poppins" from Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Paytone+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .font-poppins {
+          font-family: "Mulish", sans-serif;
+        }
+        .bg-tan {
+          background-color: #202020;
+        }
+
+        .bg-peach {
+          background-color: #6b625b;
+        }
+
+        .text-tan {
+          color: #202020;
+        }
+
+        .text-peach {
+          color: #6b625b;
+        }
+        .text-peachie {
+          color: #8e847d;
+        }
+      }
+    </style>
+  </head>
+  <body class="dark:bg-tan">
+    <section class="py-6 px-6 sm:px-6 lg:px-8">
+      <div class="fixed top-4 right-4 z-50">
+        <button
+          id="modeButton"
+          class="p-3 rounded-full bg-gray-200 dark:bg-peach text-tan dark:text-gray-200 dark:hover:text-tan hover:text-gray-200 hover:bg-peach dark:hover:bg-gray-200 transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:scale-105"
+        >
+          <i id="ModeIcon" class="fas fa-moon text-xl"></i>
+        </button>
+      </div>
+      <div class="max-w-3xl mx-auto items-center mt-8 lg:mt-16">
+        <div
+          class="flex flex-col md:px-8 lg:px-0 md:flex-row lg:flex-row items-center gap-8 md:gap-16 lg:gap-16 xl:gap-24 mb-10"
+        >
+          <div class="flex-shrink-0 order-0 lg:order-none">
+            <img
+              src="assets/id2.png"
+              alt="Profile"
+              class="w-52 h-52 rounded-full object-cover dark:bg-peach dark:border-0 dark:hover:bg-white border border-gray-200 shadow-xl hover:shadow-[0_4px_30px_rgba(0,0,0,0.5)] hover:bg-peach transition-transform duration-300 ease-in-out hover:scale-105"
+            />
+          </div>
+
+          <!-- Name, Description, Social Icons -->
+          <div class="flex-1 text-center lg:text-left order-1 lg:order-none">
+            <!-- Name and Description -->
+            <div class="mb-6 text-center md:text-start lg:text-left">
+              <h2
+                class="text-3xl sm:text-4xl lg:text-5xl text-tan font-extrabold mb-2 font-Mulish dark:text-white"
+              >
+                Kathleen Apostol
+              </h2>
+              <p
+                class="text-sm sm:text-md lg:text-lg text-gray-700 font-semibold font-Mulish dark:text-gray-400"
+              >
+                Graduating Computer Science Student
+              </p>
+            </div>
+
+            <!-- Social Icons and Download Button -->
+            <div
+              class="flex flex-wrap gap-4 justify-center md:justify-start lg:justify-start"
+            >
+              <!-- Social Icons -->
+              <div class="flex space-x-2 lg:space-x-4 text-xl lg:text-2xl">
+                <a
+                  href="https://www.linkedin.com/in/kathleen-apostol-2174b9243/?trk=opento_sprofile_topcard"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="dark:hover:text-white text-peachie hover:text-tan transition duration-200 ease-in-out hover:scale-105"
+                >
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a
+                  href="https://github.com/kqtqh1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="dark:hover:text-white text-peachie hover:text-tan transition duration-200 ease-in-out hover:scale-105"
+                >
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a
+                  href="https://www.facebook.com/kaeseulrin"
+                  class="dark:hover:text-white text-peachie hover:text-tan transition duration-200 ease-in-out hover:scale-105"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <div class="relative group inline-block">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="mailto:kathleennapostoll@gmail.com"
+                    class="dark:hover:text-white text-peachie hover:text-tan transition duration-200 ease-in-out hover:scale-105"
+                  >
+                    <i class="fa-solid fa-envelope"></i>
+                  </a>
+                  <div
+                    class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200 bg-gray-800 text-white text-sm rounded px-2 py-1 whitespace-nowrap z-10"
+                  >
+                    kathleennapostoll@gmail.com
+                  </div>
+                </div>
+              </div>
+              <!-- Download CV Button -->
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://drive.google.com/drive/folders/1WKI9LklTCkJpwJsC9oE_SR6QQm7Kt_Ay?usp=sharing"
+              >
+                <button
+                  class="px-4 py-1 lg:px-6 lg:py-2 bg-tan text-sm lg:text-md dark:bg-peach text-white dark:hover:text-gray-800 font-semibold rounded-full hover:border dark:hover:bg-white hover:bg-peach hover:text-white shadow-xl transition-transform duration-200 ease-in-out hover:scale-105"
+                >
+                  Download CV
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="max-w-3xl px-8 lg:px-0 items-center">
+          <h3
+            class="text-md sm:text-lg md:text-xl lg:text-2xl font-bold mb-4 text-gray-800 font-Mulish dark:text-white"
+          >
+            About Me
+          </h3>
+          <p
+            class="text-gray-700 text-justify text-sm md:text-md lg:text-lg dark:text-gray-200"
+          >
+            Hi, I'm Kathleen! I'm a 22-year-old graduating student from Computer
+            Science at Pangasinan State University, based in Pangasinan,
+            Philippines. I'm set to graduate this August, and I have a strong
+            passion for technology, particularly in mobile app development and
+            machine learning, and I enjoy building solutions that make a real
+            impact.<br /><br />I’m eager to continue learning, growing, and
+            contributing to meaningful work in tech. Whether it’s through
+            coding, research, or creative problem-solving, I strive to bring
+            value to every project I take on.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Experiences Section -->
+    <section class="py-6 px-6 mt-4 md:mt-8">
+      <div class="max-w-3xl mx-auto px-8 lg:px-0">
+        <h3
+          class="text-md sm:text-lg md:text-xl lg:text-2xl font-bold mb-8 text-gray-800 font-Mulish dark:text-white"
+        >
+          Experience
+        </h3>
+        <!-- Experience Item 1 -->
+        <div class="flex items-center gap-6 mb-10">
+          <div class="flex-shrink-0">
+            <img
+              src="assets/logo.png"
+              alt="Province of Pangasinan Logo"
+              class="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover shadow-md"
+            />
+          </div>
+          <!-- Company Info -->
+          <div
+            class="flex-1 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 sm:gap-0"
+          >
+            <div>
+              <h4
+                class="text-sm md:text-md lg:text-lg font-semibold text-gray-800 dark:text-white"
+              >
+                Pangasinan Provincial Assessment Office | Student Intern
+              </h4>
+              <p
+                class="text-xs md:text-sm text-gray-600 font-medium dark:text-gray-400 mb-2"
+              >
+                February 2025 - May 2025
+              </p>
+              <p class="text-sm md:text-md text-gray-500 dark:text-gray-400">
+                Worked with AutoCAD to create accurate tax maps used for
+                property zoning and taxation.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience Item 2 -->
+        <div class="flex items-center gap-6 mb-10">
+          <div class="flex-shrink-0">
+            <img
+              src="assets/botany.jpg"
+              alt="Province of Pangasinan Logo"
+              class="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover shadow-md"
+            />
+          </div>
+          <!-- Company Info -->
+          <div
+            class="flex-1 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 sm:gap-0"
+          >
+            <div>
+              <h4
+                class="text-sm md:text-md lg:text-lg font-semibold text-gray-800 dark:text-white"
+              >
+                Reasearch Developer | Commisioned Project
+              </h4>
+              <p
+                class="text-xs md:text-sm text-gray-600 font-medium dark:text-gray-400 mb-2"
+              >
+                December 2024 - March 2025
+              </p>
+              <p class="text-sm md:text-md text-gray-600 dark:text-gray-400">
+                Developed a mobile application utilizing a MobileNetV2-based
+                machine learning model for medicinal plant classification.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Education Section -->
+    <section class="mb-20 px-6 mt-4 md:mt-8">
+      <div class="max-w-3xl mx-auto px-8 lg:px-0">
+        <h3
+          class="text-md sm:text-lg md:text-xl lg:text-2xl font-bold mb-8 text-gray-800 font-Mulish dark:text-white"
+        >
+          Education
+        </h3>
+        <!-- College -->
+        <div class="flex items-center gap-6 mb-10">
+          <div class="flex-shrink-0">
+            <img
+              src="assets/psulogo.png"
+              alt="PSU logo"
+              class="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover shadow-md"
+            />
+          </div>
+          <!-- College Info -->
+          <div
+            class="flex-1 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 sm:gap-0"
+          >
+            <div>
+              <h4
+                class="text-sm md:text-md lg:text-lg font-semibold text-gray-800 mb-1 dark:text-white"
+              >
+                State University
+              </h4>
+              <p class="text-sm md:text-md text-gray-600 dark:text-gray-400">
+                Bachelor of Science in Computer Science
+              </p>
+            </div>
+            <div
+              class="text-xs md:text-sm text-gray-500 font-medium dark:text-gray-400"
+            >
+              September 2021 - August 2025
+            </div>
+          </div>
+        </div>
+        <!-- High School -->
+        <div class="flex items-center gap-6 mb-10">
+          <div class="flex-shrink-0">
+            <img
+              src="assets/sepnaslogo.png"
+              alt="SEPNAS Logo"
+              class="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover shadow-md"
+            />
+          </div>
+          <!--High school info -->
+          <div
+            class="flex-1 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 sm:gap-0"
+          >
+            <div>
+              <h4
+                class="text-sm md:text-md lg:text-lg font-semibold text-gray-800 mb-1 dark:text-white"
+              >
+                Speaker Eugenio Perez National Agricultural School
+              </h4>
+              <p class="text-sm md:text-md text-gray-600 dark:text-gray-400">
+                ICT- Computer System Servicing
+              </p>
+            </div>
+
+            <div
+              class="text-xs md:text-sm text-gray-500 font-medium dark:text-gray-400"
+            >
+              February 2025 - May 2025
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills Section -->
+    <section class="mb-20 px-6 mt-2">
+      <div class="max-w-3xl mx-auto px-8 lg:px-0">
+        <h2
+          class="text-md sm:text-lg md:text-xl lg:text-2xl font-bold mb-8 text-gray-800 font-Mulish dark:text-white"
+        >
+          Skills
+        </h2>
+        <div
+          class="flex flex-wrap gap-2 mt-4 lg:gap-4 lg:mt-6 [&>span]:bg-transparent [&>span]:dark:text-white [&>span]:font-semibold [&>span]:rounded-xl [&>span]:text-sm [&>span]:border-2 [&>span]:dark:border-[#6b625b] [&>span]:border-[#202020] [&>span]:py-1 [&>span]:px-4 [&>span]:lg:py-2 [&>span]:lg:px-6"
+        >
+          <span
+            class="transition-transform duration-300 ease-in-out hover:shadow-[0_4px_30px_rgba(0,0,0,0.5)] hover:scale-105 dark:hover:shadow-[0_4px_30px_rgba(107,98,91,0.5)]"
+            >Python</span
+          >
+          <span
+            class="transition-transform duration-300 ease-in-out hover:shadow-[0_4px_30px_rgba(0,0,0,0.5)] hover:scale-105 dark:hover:shadow-[0_4px_30px_rgba(107,98,91,0.5)]"
+          >
+            TensorFlow</span
+          >
+          <span
+            class="transition-transform duration-300 ease-in-out hover:shadow-[0_4px_30px_rgba(0,0,0,0.5)] hover:scale-105 dark:hover:shadow-[0_4px_30px_rgba(107,98,91,0.5)]"
+            >Java</span
+          >
+          <span
+            class="transition-transform duration-300 ease-in-outhover:shadow-[0_4px_30px_rgba(0,0,0,0.5)] hover:scale-105 dark:hover:shadow-[0_4px_30px_rgba(107,98,91,0.5)]"
+            >HTML</span
+          >
+          <span
+            class="transition-transform duration-300 ease-in-out hover:shadow-[0_4px_30px_rgba(0,0,0,0.5)] hover:scale-105 dark:hover:shadow-[0_4px_30px_rgba(107,98,91,0.5)]"
+            >CSS</span
+          >
+          <span
+            class="transition-transform duration-300 ease-in-out hover:shadow-[0_4px_30px_rgba(0,0,0,0.5)] hover:scale-105 dark:hover:shadow-[0_4px_30px_rgba(107,98,91,0.5)]"
+            >Tailwind CSS</span
+          >
+          <span
+            class="transition-transform duration-300 ease-in-out hover:shadow-[0_4px_30px_rgba(0,0,0,0.5)] hover:scale-105 dark:hover:shadow-[0_4px_30px_rgba(107,98,91,0.5)]"
+            >Flet</span
+          >
+          <span
+            class="transition-transform duration-300 ease-in-out hover:shadow-[0_4px_30px_rgba(0,0,0,0.5)] hover:scale-105 dark:hover:shadow-[0_4px_30px_rgba(107,98,91,0.5)]"
+            >Laravel</span
+          >
+          <span
+            class="transition-transform duration-300 ease-in-out hover:shadow-[0_4px_30px_rgba(0,0,0,0.5)] hover:scale-105 dark:hover:shadow-[0_4px_30px_rgba(107,98,91,0.5)]"
+            >React JS</span
+          >
+          <span
+            class="transition-transform duration-300 ease-in-out hover:shadow-[0_4px_30px_rgba(0,0,0,0.5)] hover:scale-105 dark:hover:shadow-[0_4px_30px_rgba(107,98,91,0.5)]"
+            >SQLite</span
+          >
+          <span
+            class="transition-transform duration-300 ease-in-out hover:shadow-[0_4px_30px_rgba(0,0,0,0.5)] hover:scale-105 dark:hover:shadow-[0_4px_30px_rgba(107,98,91,0.5)]"
+            >MySQL</span
+          >
+          <span
+            class="transition-transform duration-300 ease-in-out hover:shadow-[0_4px_30px_rgba(0,0,0,0.5)] hover:scale-105 dark:hover:shadow-[0_4px_30px_rgba(107,98,91,0.5)]"
+            >VS Code</span
+          >
+          <span
+            class="transition-transform duration-300 ease-in-out hover:shadow-[0_4px_30px_rgba(0,0,0,0.5)] hover:scale-105 dark:hover:shadow-[0_4px_30px_rgba(107,98,91,0.5)]"
+            >Android Studio</span
+          >
+          <span
+            class="transition-transform duration-300 ease-in-out hover:shadow-[0_4px_30px_rgba(0,0,0,0.5)] hover:scale-105 dark:hover:shadow-[0_4px_30px_rgba(107,98,91,0.5)]"
+            >MS Excel</span
+          >
+        </div>
+      </div>
+      <!-- Project Section -->
+    </section>
+    <section class="mb-20 px-6 mt-2">
+      <div class="max-w-3xl mx-auto px-8 lg:px-0">
+        <h2
+          class="text-md sm:text-lg md:text-xl lg:text-2xl font-bold mb-8 text-gray-800 font-Mulish dark:text-white"
+        >
+          Projects
+        </h2>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-6 max-w-6xl mx-auto">
+          <!-- Proj 1 -->
+          <div
+            class="bg-white dark:bg-tan dark:hover:bg-peach border border-gray-200 dark:border-gray-600 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 ease-in-out dark:hover:shadow-[0_4px_30px_rgba(107,98,91,0.5)] hover:shadow-[0_4px_30px_rgba(0,0,0,0.5)] hover:scale-105"
+          >
+            <div class="w-full h-38 lg:h-52">
+              <img
+                src="assets/verifake.png"
+                alt=" "
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="p-3 lg:p-6">
+              <h3 class="font-Mulish font-semibold dark:text-white">
+                VeriFake: Signature Verification
+              </h3>
+              <div
+                class="flex flex-wrap gap-1 lg:gap-2 mt-2 [&>span]:bg-tan dark:[&>span]:border dark:[&>span]:border-[#8e847d] [&>span]:rounded-md [&>span]:text-xs [&>span]:border [&>span]:border-gray-200 [&>span]:py-1 [&>span]:px-2 [&>span]lg:px-4 [&>span]:text-white"
+              >
+                <span>Python</span>
+                <span>TensorFlow</span>
+                <span>Java</span>
+              </div>
+              <p
+                class="text-xs lg:text-sm text-justify text-gray-600 leading-relaxed my-4 dark:text-gray-300"
+              >
+                This project is our thesis presented to the faculty of CS
+                department in PSU. This signature verification app uses a
+                Siamese Neural Network to compare two handwritten signatures.
+              </p>
+              <div class="flex justify-center">
+                <a
+                  href="https://github.com/kqtqh1/Signature-Verification-App-using-SNN.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button
+                    class="text-xs lg:text-sm font-semibold mt-auto dark:text-white"
+                  >
+                    Read More
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Proj 2 -->
+          <div
+            class="bg-white dark:bg-tan dark:hover:bg-peach border border-gray-200 dark:border-gray-600 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 ease-in-out dark:hover:shadow-[0_4px_30px_rgba(107,98,91,0.5)] hover:shadow-[0_4px_30px_rgba(0,0,0,0.5)] hover:scale-105"
+          >
+            <div class="w-full h-38 lg:h-52">
+              <img
+                src="assets/botanycam.png"
+                alt=" "
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="p-3 md:p-6">
+              <h3 class="font-Mulish font-semibold dark:text-white">
+                BotanyCam: Medicinal Plant Classification
+              </h3>
+              <div
+                class="flex flex-wrap gap-1 lg:gap-2 mt-2 [&>span]:bg-tan dark:[&>span]:border dark:[&>span]:border-[#8e847d] [&>span]:rounded-md [&>span]:text-xs [&>span]:border [&>span]:border-gray-200 [&>span]:py-1 [&>span]:px-2 [&>span]lg:px-4 [&>span]:text-white"
+              >
+                <span>Python</span>
+                <span>TensorFlow</span>
+                <span>Java</span>
+                <span>SQLite</span>
+              </div>
+              <p
+                class="lg:text-sm text-xs text-justify text-gray-600 leading-relaxed my-4 dark:text-gray-300"
+              >
+                This project is submitted as an official entry for the 2025
+                NSTF. This plant classification model uses transfer learning
+                with MobilenetV2 and is trained on 36 classes.
+              </p>
+              <div class="flex justify-center">
+                <a
+                  href="https://github.com/kqtqh1/Medicinal-Plant-Classification-using-MobilenetV2.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button
+                    class="text-xs lg:text-sm font-semibold mt-auto dark:text-white"
+                  >
+                    Read More
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Proj 3 -->
+          <div
+            class="bg-white dark:bg-tan dark:hover:bg-peach border border-gray-200 dark:border-gray-600 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 ease-in-out dark:hover:shadow-[0_4px_30px_rgba(107,98,91,0.5)] hover:shadow-[0_4px_30px_rgba(0,0,0,0.5)] hover:scale-105"
+          >
+            <div class="w-full h-38 lg:h-52">
+              <img
+                src="assets/portal.png"
+                alt=" "
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="p-3 lg:p-6">
+              <h3 class="font-Mulish font-semibold dark:text-white">
+                Simple Student Portal App
+              </h3>
+              <div
+                class="flex flex-wrap gap-1 lg:gap-2 mt-2 [&>span]:bg-tan dark:[&>span]:border dark:[&>span]:border-[#8e847d] [&>span]:rounded-md [&>span]:text-xs [&>span]:border [&>span]:border-gray-200 [&>span]:py-1 [&>span]:px-2 [&>span]lg:px-4 [&>span]:text-white"
+              >
+                <span>Python</span>
+                <span>Flet</span>
+                <span>SQLite</span>
+              </div>
+              <p
+                class="text-xs lg:text-sm text-gray-600 leading-relaxed my-4 dark:text-gray-300"
+              >
+                In this project, I used Flet as the framework and SQLite as the
+                database. This is a final project for Professional Elective 3
+                course.
+              </p>
+              <div class="flex justify-center">
+                <a
+                  href="https://github.com/kqtqh1/Flet-Login-App-with-SQLite.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button
+                    class="text-xs lg:text-sm font-semibold mt-auto dark:text-white"
+                  >
+                    Read More
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Proj 4 -->
+          <div
+            class="bg-white dark:bg-tan dark:hover:bg-peach border border-gray-200 dark:border-gray-600 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 ease-in-out dark:hover:shadow-[0_4px_30px_rgba(107,98,91,0.5)] hover:shadow-[0_4px_30px_rgba(0,0,0,0.5)] hover:scale-105"
+          >
+            <div class="w-full h-52">
+              <img
+                src="assets/caingal.png"
+                alt=" "
+                class="w-full h-full object-cover opacity-20"
+              />
+            </div>
+            <div class="p-3 lg:p-6">
+              <h3 class="font-Mulish font-semibold dark:text-white">
+                Barangay Information System
+              </h3>
+              <div
+                class="flex flex-wrap gap-1 lg:gap-2 mt-2 [&>span]:bg-tan dark:[&>span]:border dark:[&>span]:border-[#8e847d] [&>span]:rounded-md [&>span]:text-xs [&>span]:border [&>span]:border-gray-200 [&>span]:py-1 [&>span]:px-2 [&>span]lg:px-4 [&>span]:text-white"
+              >
+                <span>Laravel</span>
+                <span>Tailwind CSS</span>
+                <span>JavaScript</span>
+                <span>MySQL</span>
+              </div>
+              <p
+                class="text-xs lg:text-sm text-gray-600 leading-relaxed my-4 dark:text-gray-300"
+              >
+                IN PROGRESS
+              </p>
+              <div class="flex justify-center">
+                <a
+                  href="https://github.com/kqtqh1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button
+                    class="text-xs lg:text-sm font-semibold mt-auto dark:text-white"
+                  >
+                    Read More
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Proj 5 -->
+          <div
+            class="bg-white dark:bg-tan dark:hover:bg-peach border border-gray-200 dark:border-gray-600 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 ease-in-out dark:hover:shadow-[0_4px_30px_rgba(107,98,91,0.5)] hover:shadow-[0_4px_30px_rgba(0,0,0,0.5)] hover:scale-105"
+          >
+            <div class="w-full h-52">
+              <img
+                src="assets/image.png"
+                alt=" "
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="p-3 lg:p-6">
+              <h3 class="font-Mulish font-semibold dark:text-white">
+                Portfolio
+              </h3>
+              <div
+                class="flex flex-wrap gap-1 lg:gap-2 mt-2 [&>span]:bg-tan dark:[&>span]:border dark:[&>span]:border-[#8e847d] [&>span]:rounded-md [&>span]:text-xs [&>span]:border [&>span]:border-gray-200 [&>span]:py-1 [&>span]:px-2 [&>span]lg:px-4 [&>span]:text-white"
+              >
+                <span>HTML</span>
+                <span>Tailwind CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <p
+                class="text-xs lg:text-sm text-gray-600 leading-relaxed my-4 text-justify dark:text-gray-300"
+              >
+                This is simple and responsive personal portfolio site I made
+                using HTML and Tailwind CSS. It shows some of my projects, the
+                skills I’ve picked up, and a way to get in touch. I kept the
+                design clean and simple.
+              </p>
+              <div class="flex justify-center">
+                <a
+                  href="https://github.com/kqtqh1/Personal-Portfolio.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button
+                    class="text-xs lg:text-sm font-semibold mt-auto dark:text-white"
+                  >
+                    Read More
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Proj 5 -->
+          <div
+            class="bg-white dark:bg-tan dark:hover:bg-peach border border-gray-200 dark:border-gray-600 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 ease-in-out dark:hover:shadow-[0_4px_30px_rgba(107,98,91,0.5)] hover:shadow-[0_4px_30px_rgba(0,0,0,0.5)] hover:scale-105"
+          >
+            <div class="w-full h-52">
+              <img
+                src="assets/notes.png"
+                alt=" "
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="p-3 lg:p-6">
+              <h3 class="font-Mulish font-semibold dark:text-white">
+                Notes and To-Do List App
+              </h3>
+              <div
+                class="flex flex-wrap gap-1 lg:gap-2 mt-2 [&>span]:bg-tan dark:[&>span]:border dark:[&>span]:border-[#8e847d] [&>span]:rounded-md [&>span]:text-xs [&>span]:border [&>span]:border-gray-200 [&>span]:py-1 [&>span]:px-2 [&>span]lg:px-4 [&>span]:text-white"
+              >
+                <span>Python</span>
+                <span>Flet</span>
+              </div>
+              <p
+                class="text-xs lg:text-sm text-gray-600 leading-relaxed my-4 text-justify dark:text-gray-300"
+              >
+                A basic notes and to-do app built with Python and Flet. It lets
+                you quickly manage tasks and notes with a clean interface and
+                smooth user experience.
+              </p>
+              <div class="flex justify-center">
+                <a
+                  href="https://github.com/kqtqh1/Notes-and-ToDo-List-App-with-Flet.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button
+                    class="text-xs lg:text-sm font-semibold mt-auto dark:text-white"
+                  >
+                    Read More
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      // Tailwind dark mode config
+      tailwind.config = { darkMode: "class" };
+
+      const toggleBtn = document.getElementById("modeButton");
+      const icon = document.getElementById("ModeIcon");
+      const html = document.documentElement;
+
+      const setTheme = (isDark) => {
+        html.classList.toggle("dark", isDark);
+        icon.className = `fas fa-${isDark ? "sun" : "moon"} text-xl`;
+        localStorage.setItem("theme", isDark ? "dark" : "light");
+      };
+
+      // Initial theme check
+      const saved = localStorage.getItem("theme");
+      const prefersDark = window.matchMedia(
+        "(prefers-color-scheme: dark)"
+      ).matches;
+      setTheme(saved === "dark" || (!saved && prefersDark));
+
+      // Toggle theme on click
+      toggleBtn.addEventListener("click", () => {
+        const isDark = !html.classList.contains("dark");
+        setTheme(isDark);
+      });
+
+      // Listen for system theme changes
+      window
+        .matchMedia("(prefers-color-scheme: dark)")
+        .addEventListener("change", (e) => {
+          if (!localStorage.getItem("theme")) setTheme(e.matches);
+        });
+    </script>
+  </body>
+</html>
