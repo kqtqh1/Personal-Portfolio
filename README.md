@@ -9,5 +9,6 @@ This is simple and responsive personal portfolio site I made using HTML and Tail
 
 ## Live Demo
 
-Check out the live portfolio here:
+Check out my live portfolio here:
+
 ➨ https://kathleenportfolio.vercel.app/
