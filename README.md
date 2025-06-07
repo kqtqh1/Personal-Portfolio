@@ -7,6 +7,7 @@ This is simple and responsive personal portfolio site I made using HTML and Tail
  - Tailwind CSS
  - JavaScript
 
-##Live Demo
+## Live Demo
+
 Check out the live portfolio here:
 ➨ https://kathleenportfolio.vercel.app/
